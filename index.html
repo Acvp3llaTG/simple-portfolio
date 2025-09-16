@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acvp3llaTG - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about" tabindex="1">About</a></li>
+                <li><a href="#skills" tabindex="2">Skills</a></li>
+                <li><a href="#projects" tabindex="3">Projects</a></li>
+                <li><a href="#contact" tabindex="4">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Acvp3llaTG</h1>
+        <p>Software Developer</p>
+    </header>
+    <main>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+            <!-- <img src="profile.jpg" alt="Portrait of Acvp3llaTG" width="150" height="150"> -->
+            <p>
+                Hi! I'm Acvp3llaTG, an enthusiastic Software Developer passionate about building modern web applications. I love learning new technologies and solving real-world problems with code.
+            </p>
+        </section>
+        <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+            <ul>
+                <li>
+                    <strong>HTML5</strong> – Semantic markup, accessibility, forms
+                </li>
+                <li>
+                    <strong>CSS3</strong> – Flexbox, Grid, Responsive Design, Animations
+                </li>
+                <li>
+                    <strong>JavaScript</strong> – DOM Manipulation, ES6+, Event Handling
+                </li>
+                <li>
+                    <strong>Version Control (Git)</strong> – Branching, Merging, GitHub
+                </li>
+                <li>
+                    <strong>Frameworks</strong> – Basic experience with React.js and Bootstrap
+                </li>
+                <li>
+                    <strong>Backend Basics</strong> – Python (Flask), REST API fundamentals
+                </li>
+                <li>
+                    <strong>Soft Skills</strong> – Communication, Teamwork, Problem-Solving
+                </li>
+            </ul>
+        </section>
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+            <div class="project-list">
+                <article class="project-card">
+                    <!-- <img src="project1.png" alt="Screenshot of Dealer Evaluation Frontend project" width="250"> -->
+                    <h3>Dealer Evaluation Frontend</h3>
+                    <p>A React-based app that helps dealerships evaluate performance using interactive dashboards.</p>
+                    <a href="https://github.com/Acvp3llaTG/dealer_evaluation_frontend" target="_blank" rel="noopener">View on GitHub</a>
+                </article>
+                <article class="project-card">
+                    <!-- <img src="project2.png" alt="Screenshot of Flask Final Project" width="250"> -->
+                    <h3>Flask Final Project</h3>
+                    <p>A simple Flask web application demonstrating backend skills and RESTful API integration.</p>
+                    <a href="https://github.com/Acvp3llaTG/flask-final-proj" target="_blank" rel="noopener">View on GitHub</a>
+                </article>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Me</h2>
+            <form id="contactForm" aria-label="Contact Form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+
+                <button type="submit">Send Message</button>
+                <p id="formResponse" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Acvp3llaTG. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
